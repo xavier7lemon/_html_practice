@@ -2,12 +2,16 @@
 
   <head>
     <title>TasteMaker</title>
+    <!-- webpage color -->
+    <style>
+      body {background-color: #99d8ff;}
+    </style>
   </head>
   <body>
 
     <div>
 
-    <p>My favorite musicians include</p>
+    <h2><p>My favorite musicians include:</p></h2>
       <!-- un ordered list of musicians -->
       <ul>
         <li>Kid Cudi</li>
@@ -18,13 +22,20 @@
 
     </div>
 
-  <br>
-  <br>
+    <div>
+      <!-- user fav musician input form -->
+      <form action="/_html_practice/form_replies.html" method="POST">
+        <h2>Who are your favorite musicians?</h2>
+        <input type="text" name="user favorite musicians" value="<type something>">
+      </form>
+
+    </div>
+
   <br>
 
     <div>
 
-    <p>Cuisines I eat often:</p>
+    <h2><p>Cuisines I eat often:</p></h2>
     <table>
     <!-- cuisine table  -->
       <!-- header -->
@@ -71,16 +82,15 @@
       </tbody>
     <!-- close table -->
     </table>
-  <br>
-  <br>
-  <br>
 
   </div>
-  
+
+    <br>
+
     <!-- favorite cuisine and dish input form -->
     <form action="/_html_practice/form_replies.html" method="POST">
-      <h1>What is your favorite cuisine and dish?</h1>
-      <input type="text" name="food choice" value="Cuisine - Dish">
+      <h2>What is your favorite cuisine and dish?</h2>
+      <input type="text" name="food choice" value="<type someting>">
     </form>
   </body>
 
