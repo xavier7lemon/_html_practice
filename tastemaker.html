@@ -7,9 +7,39 @@
     <!-- add webpage color -->
     <style>
       body {background-color: #99d8ff;}
+      table, th, td {border: 1px solid black;}
     </style>
   </head>
   <body>
+
+<!-- Login forms -->
+    <div>
+      <h2>Login to load your personal tastes:</h2>
+      <form action="/_html_practice/form_replies.html" method="POST">
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" name="username" id="username" value="<type something>">
+      </form>
+    </div>
+    <div>
+      <form action="/_html_practice/form_replies.html" method="POST">
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" name="password" id="user-password" value="private">
+      </form>
+    </div>
+
+<br>
+<!-- paragraph -->
+    <h3></h3>
+    <p>It is just daybreak of 2019, and the idea of a tastemaker is firmly implanted in our vernacular.<br> But just in case you aren’t aware of it, here it is:<br><br>
+
+    <em>noun</em><strong> taste·mak·er \-ˌmā-kər\:</strong> a person whose judgments about what is good, fashionable, etc., are accepted and followed by many other people<br><br>
+
+    Now, this label is nothing new. It’s been around for ages — arguably forever. The Catholic Church introduced us to the allure of gold in a wardrobe. Martha Stewart taught us what a home should be. SeanJohn gave us affordable style in a nutshell. Frank Sinatra used envy to portray the modern man. <a href="https://medium.com/milkshake-studio/should-everyone-be-a-tastemaker-5fa7750c8676">Be like me, and your dreams will manifest.</a>
+    </p>
+
+<br>
 
     <div>
     <h2>You can't sleep on these artists :</h2>
@@ -22,8 +52,8 @@
       </ul>
       <!-- user fav musician input form -->
       <form action="/_html_practice/form_replies.html" method="POST">
-        <h2>Who else should we know about?</h2>
-        <input type="text" name="user favorite musicians" value="<drop knowledge>">
+        <label for="music">Who else should we know about?</label>
+        <input type="text" name="user favorite musicians" value="<drop knowledge>" id="music">
       </form>
     </div>
 
@@ -65,22 +95,24 @@
         <tr>
           <td>Indian</td>
           <td>Vindaloo</td>
-          <!-- span a column -->
-          <td colspan="2">Red Wine or Rose goes well with either</td>
+          <td>Cabernet Sauvignon</td>
         </tr>
         <!-- option 5 -->
         <tr>
           <td>Napalese</td>
           <td>Dall Baht</td>
-          <td></td>
+          <td>Ros&eacute;</td>
         </tr>
       </tbody>
     <!-- close table -->
     </table>
+
+<br>
+
     <!-- favorite cuisine and dish input form -->
     <form action="/_html_practice/form_replies.html" method="POST">
-      <h2>What's your favorite cuisine and dish?</h2>
-      <input type="text" name="food choice" value="<type someting>">
+      <label for="dish">What's your favorite cuisine and dish?</label>
+      <input type="text" name="food choice" value="<type someting>" id="dish">
     </form>
   </div>
 
